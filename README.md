@@ -57,7 +57,7 @@ Sample data to create an entry.
     "end_time": "23:00:00"
 }   
 
-- **Getslots**: [http://localhost:8000/api/getslots/candidate ID/interviewer ID/](http://localhost:8000/api/getslots/candidate ID/interviewer ID/)
+- **Getslots [GET] method**: [http://localhost:8000/api/getslots/candidate ID/interviewer ID/](http://localhost:8000/api/getslots/candidate ID/interviewer ID/)
 
 ---
 
