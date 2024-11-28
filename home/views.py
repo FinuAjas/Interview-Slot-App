@@ -90,7 +90,8 @@ class GetSlots(APIView):
                 start_hour = possible_start_time.hour
                 end_hour = possible_end_time.hour
                 slots = [(start_hour, start_hour + 1), (end_hour - 1, end_hour)]
+                print(slots)
                 response_data = {
-                    "available_slots": slots
+                    "Available time slots": slots
                 }
                 return Response(response_data, status=status.HTTP_200_OK)
